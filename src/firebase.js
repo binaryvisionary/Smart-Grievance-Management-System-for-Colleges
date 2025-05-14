@@ -4,7 +4,7 @@ import "firebase/database";
 import "firebase/storage";
 
 var config = {
-  apiKey: "AIzaSyACbo0Ir-QVH9zr-y_mZzjibMEm2JBgoQY",
+  apiKey: "api",
   authDomain: "grievance-8e8af.firebaseapp.com",
   databaseURL: "https://grievance-8e8af-default-rtdb.firebaseio.com",
   projectId: "grievance-8e8af",
