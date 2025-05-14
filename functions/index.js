@@ -1,7 +1,7 @@
 const functions = require("firebase-functions");
 const axios = require("axios");
 
-const HUGGINGFACE_API_KEY = "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"; // replace with your API key
+const HUGGINGFACE_API_KEY = "api"; // replace with your API key
 const HUGGINGFACE_API_URL = "https://api-inference.huggingface.co/models/Hate-speech-CNERG/indic-abusive-allInOne-MuRIL";
 
 exports.profanityCheck = functions.https.onRequest(async (req, res) => {
